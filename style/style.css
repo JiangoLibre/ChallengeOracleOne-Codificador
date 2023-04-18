@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+:root{
+    --corprincipal: #7a2ac5;
+    --corsegundaria:#caf9ff;
+    --cortitulo:#0A3871;
+    --corfundooutput:#ffffff;
+}
+
+body{
+    background: var(--corsegundaria);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.cabecalho h1{
+    color: var(--cortitulo);
+}
+
+.container-input{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 0 80px;
+}
+
+.container-input .input{
+    width: 400px;
+    height: 330px;
+}
+
+#input-texto{
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: var(--cortitulo);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+    
+
+#output{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--cortitulo);
+    background-color: var(--corfundooutput);
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    margin-right: 3%;
+}
+
+#output h2{
+    text-align: center;
+    font-size: 25px;
+    color: var(--cortitulo);
+}
+
+#output span{
+    font-size: 16px;
+    text-align: center;
+}
+
+#output img{
+    max-width:300px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+    margin-top: 4%;
+}
+
+.btn-criptografar{
+    border: 2px solid var(--corsegundaria);
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: var(--cortitulo);
+    color: #ffffff;
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.btn-descriptografar{
+    border: 2px solid var(--cortitulo);
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: var(--corsegundaria);
+    color: var(--cortitulo);
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+.btn-copiar{
+    border: 2px solid var(--cortitulo);
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: var(--corfundooutput);
+    color:  var(--cortitulo);
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.container-bnt button:hover{
+   border: 2px solid var(--corprincipal);
+   transition: 0.5s all;
+}
+
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px ;
+    color: var(--cortitulo);
+}
+
+.rodape h3{
+    font-size: 16px;
+}
+
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: var(--cortitulo);
+}
+
+.icons ion-icon:hover{
+    color: var(--corprincipal);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
