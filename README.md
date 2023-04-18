@@ -22,7 +22,7 @@ As tecnologias utilizadas neste projeto foram:
 
 ## Como Utilizar
 
-Para utilizar o decodificador de texto, basta acessar o link [https://seu-usuario.github.io/challenge-one/](https://seu-usuario.github.io/challenge-one/) e inserir o texto que deseja criptografar ou descriptografar. O resultado será exibido logo abaixo da caixa de texto, permitindo que você copie o texto já transformado.
+Para utilizar o decodificador de texto, basta acessar o link https://jiangolibre.github.io/ChallengeOracleOne-Codificador/ e inserir o texto que deseja criptografar ou descriptografar. O resultado será exibido logo abaixo da caixa de texto, permitindo que você copie o texto já transformado.
 
 ## Como Contribuir
 
